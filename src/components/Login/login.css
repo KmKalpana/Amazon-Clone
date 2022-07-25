@@ -1,0 +1,94 @@
+.login
+{
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+}
+.co
+{
+    color: black;
+    margin-top:0;
+}
+
+.login-logo{
+    width: 100px;
+    max-height: max-content;
+    margin: 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    color:black;
+}
+.create
+{
+    margin-bottom: 10px;
+    color: gray
+}
+
+.login-containt
+{
+ border: solid lightgray 1px;
+margin-top: 10px;
+width: 350px;
+height: fit-content;
+display: flex;
+flex-direction: column;
+}
+.login-containt>h1{
+     margin-top: 20px;
+     margin-left: 25px;
+     margin-bottom: 20px;
+}
+.login-containt->h5{
+    margin-left: 15px;
+}
+.input
+{
+height: 8px;
+padding: 10px;
+width: 80%;
+margin-top: 5px;
+margin-bottom: 15px;
+border-radius: 4px;
+}
+
+      h6 {
+          margin-top:20px;
+        color: grey;
+        font-size: 14px;
+        position: relative;
+        max-width: 600px;
+      }
+.btn
+{
+     background: #f0c14b;
+    border-radius: 2px;
+    width: 90%;
+    margin-bottom: 20px;
+    height: 30px;
+    border: 1px solid;
+    margin-left: 2px;
+    margin-top: 10px;
+    border-color: #a88737 #9c7e31 #846a29;
+    color: #111111;
+}
+.create-btn
+{
+    width: 350px;
+    align-items: center;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text
+{
+ font-size: 12px;
+ margin-bottom: 15px;
+}
+.Form
+{
+margin-left: 15px;    
+    
+}
