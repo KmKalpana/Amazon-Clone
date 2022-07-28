@@ -8,7 +8,8 @@ const Create = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const Navigate = useNavigate()
-  const register = async (event) => {
+  const register = async (event) =>
+   {
     event.preventDefault()
     try {
       const user = await createUserWithEmailAndPassword(auth, email, password)
